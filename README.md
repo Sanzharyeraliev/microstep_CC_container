@@ -36,14 +36,15 @@
 ### Progress tracking and achievement system
 
 ## Architecture
-microstep_CC_container/
-├── Dockerfile              # Docker image build instructions
-├── docker-compose.yml      # Container orchestration
-├── build/web/              # Compiled Flutter Web application
-├── lib/                    # Flutter source code
-├── assets/                 # Assets (images)
-├── pubspec.yaml            # Flutter dependencies
-└── README.md               # Documentation
+- microstep_CC_container/
+- ├── Dockerfile              # Docker image build instructions
+- ├── docker-compose.yml      # Container orchestration
+- ├── build/web/              # Compiled Flutter Web application
+- ├── lib/                    # Flutter source code
+- ├── assets/                 # Assets (images)
+- ├── pubspec.yaml            # Flutter dependencies
+- └── README.md               # Documentation
+
 ## 🛠 Tech Stack
 
 - **Flutter** – cross‑platform UI framework
@@ -52,15 +53,6 @@ microstep_CC_container/
 - **Firebase Cloud Messaging** – push notifications (Android/iOS)
 - **photo_manager** – gallery access for declutter feature
 - **flutter_local_notifications** – local reminders
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/Sanzharyeraliev/microstep_CC_container.git
-cd microstep_CC_container
-docker-compose up
-Open in your browser: http://localhost:8080
-
 
 > ⚠️ Web platform works with limited SQLite support; use Android/iOS for full experience.
 
@@ -85,3 +77,10 @@ Open in your browser: http://localhost:8080
 
 **MicroStep** – small steps, deep growth. 🌱
 
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Sanzharyeraliev/microstep_CC_container.git
+cd microstep_CC_container
+docker-compose up
+Open in your browser: http://localhost:8080
