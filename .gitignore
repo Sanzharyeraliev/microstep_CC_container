@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (раскомментируйте, если нужно исключить)
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ============================================
+# ВАЖНО: Исключаем временные файлы сборки, НО оставляем build/web
+# ============================================
+/build/*/
+!/build/web/
+/build/*.dill
+/build/*.track.dill
+
+# Исключаем нативные платформы (не нужны для Web деплоя)
+/android/
+/ios/
+/linux/
+/macos/
+/windows/
+
+# Файлы окружения (если не хотите публиковать секреты)
+.env
+.env.local
+.env.production
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
